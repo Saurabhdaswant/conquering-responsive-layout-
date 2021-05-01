@@ -7,18 +7,19 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 a {
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
 .container {
   width: 80%;
-  max-width: 750px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -54,4 +55,26 @@ body {
 .cta:hover,
 .cta:focus {
   opacity: 0.75;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+}
+
+.section h1 {
+  color: #87629a;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.center,
+.footer {
+  padding: 50px 0;
+}
+
+.footer {
+  background-color: #136c72;
+  color: white;
 }
